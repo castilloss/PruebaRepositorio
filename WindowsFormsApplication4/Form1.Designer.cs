@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // button1
@@ -70,11 +71,19 @@
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 3;
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(67, 186);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
@@ -92,6 +101,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
